@@ -21,7 +21,6 @@ public class area_Advanced {
              System.out.println("The square will fit into the circle");
          }
 
-
     }
 
 }
