@@ -1,8 +1,12 @@
 package Lesson3;
-
+/*Написать программу с названием “PrintNumberInWord”, которая напечатает “ONE”,
+“TWO”, …, “NINE”, “OTHER” если переменная “number” типа int будет 1, 2, 3, 4, … 9, или
+любой другой
+. Решить задачу двумя способами: 1) с использованием if..else if 2) с использованием
+switch-case*/
 public class PrintNumberInWord {
     public static void main(String[] args) {
-        int number = 0;
+        int number = 2;
         if (number == 1) {
             System.out.println("ONE");
         } else if (number == 2) {
@@ -28,7 +32,7 @@ public class PrintNumberInWord {
 }
  class PrintNumberSwitch {
      public static void main(String[] args) {
-         int  number = 7;
+         int  number = 3;
          switch (number){
              case 1:
                  System.out.println(" ONE ");

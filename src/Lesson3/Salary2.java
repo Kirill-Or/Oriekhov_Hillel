@@ -6,7 +6,7 @@ public class Salary2 {
 осталось продаж до получения бонуса
 */
     public static void main(String[] args) {
-        int sales = 7;
+        int sales = 12;
         int before_bonus;
         if (sales > 10) {
             System.out.println( "You have earned a bonus");

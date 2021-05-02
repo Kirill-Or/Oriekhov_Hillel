@@ -6,7 +6,7 @@ public class Fingers {
 и т д)*/
 
     public static void main(String[] args) {
-        int number = 22;
+        int number = 2;
         switch (number) {
             case 1:
                 System.out.println("thumb");

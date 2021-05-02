@@ -7,10 +7,10 @@ public class mortgage {
 Задачу решить используя вложенный if (сначала проверить возраст жены, потом мужа)*/
 
     public static void main(String[] args) {
-        int man = 40;
+        int man = 30;
         int women = 20;
-        if (women < 35) {
-            if (man < 35) {
+        if (women <= 35) {
+            if (man <= 35) {
                 System.out.println("mortgage approved");
             } else {
                 System.out.println("mortgage declined");

@@ -8,7 +8,7 @@ public class definition_of_numbers {
 
         int a = 5;
         int b = 10;
-        int c = 15;
+        int c = 9;
         if (a > b & a > c)
             if (b > c) {
                 System.out.println(a + " Max " + c + " Min " + b + " average"); }

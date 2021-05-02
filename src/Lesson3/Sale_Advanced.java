@@ -7,7 +7,7 @@ public class Sale_Advanced {
     public static void main(String[] args) {
 
 
-        double priceBefore = 1000;
+        double priceBefore = 1001;
         double priceAfter ;
         if (priceBefore > 1000) {
             priceAfter = priceBefore * 0.85;

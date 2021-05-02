@@ -1,8 +1,11 @@
 package Lesson3;
-
+/*Написать программу, которая бы решала уравнение вида a*x + b = 0 Переменные a
+и b можно задать вручную. Далее нужно будет посчитать и вывести значение “х”.
+Программа должна также учитывать варианты, когда или а = 0 или b = 0
+*/
 public class the_equation {
     public static void main(String[] args) {
-        double a = -5;
+        double a = 25;
         double b = 55;
         double x;
         if (a==0 & b ==0 ) {
