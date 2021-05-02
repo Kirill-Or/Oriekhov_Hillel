@@ -1,7 +1,4 @@
 package Lesson3;
-
-import java.util.SortedMap;
-
 public class CheckOddEven {
     public static void main(String[] args) {
 
