@@ -6,7 +6,7 @@ public class area_Advanced {
     */
     public static void main(String[] args) {
         double S_circle = 40;
-        double S_square = 9;
+        double S_square = 99;
         double D_circle;
         double D_square;
         double a_square;
