@@ -5,7 +5,7 @@ public class area_Advanced {
     уместится ли квадрат в круге
     */
     public static void main(String[] args) {
-        double S_circle = 4;
+        double S_circle = 40;
         double S_square = 9;
         double D_circle;
         double D_square;
@@ -17,7 +17,7 @@ public class area_Advanced {
              System.out.println( "the circle will fit into the square"
              );
          }
-         if (D_square <= D_square ) {
+         if (D_square <= D_circle ) {
              System.out.println("The square will fit into the circle");
          }
 
