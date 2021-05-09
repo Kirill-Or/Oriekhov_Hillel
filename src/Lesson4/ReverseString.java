@@ -1,5 +1,5 @@
 package Lesson4;
-
+//Написать программу, которая выводит реверсивную строку
 public class ReverseString {
     public static void main(String[] args) {
         String inputString =  "Lesson4" ;

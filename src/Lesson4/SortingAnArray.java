@@ -1,5 +1,5 @@
 package Lesson4;
-
+// 3. Написать программу, которая сортирует массив от минимума в максимум
 public class SortingAnArray {
     public static void main(String[] args) {
         double[] values = {6, 5, 7, 8, 1, 2};
@@ -17,5 +17,7 @@ public class SortingAnArray {
                 }
             }
         }
+        for (int i = 0; i < values.length; i++)
+            System.out.print( values[i] + ", " );
     }
 }

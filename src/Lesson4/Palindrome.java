@@ -1,5 +1,6 @@
 package Lesson4;
-
+//. Написать программу, которая проверяет является ли строка палиндромом
+//(используя массив char)
 public class Palindrome {
     public static void main(String[] args) {
         String inputString = "dohod";
