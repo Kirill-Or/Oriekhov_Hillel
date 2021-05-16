@@ -32,7 +32,7 @@ double бонус за сумму продаж)
 
         double salary = ((basicPerHour * hour * overtimeRatio(hour)) * experienceCoefficient(experience)) +
                 quantityBonus(numberOfSales)+ bonusForTheAmount(salesAmount);
-        System.out.println(salary);
+        System.out.println("your salary is : " + salary);
 
 
 
