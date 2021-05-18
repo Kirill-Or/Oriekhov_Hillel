@@ -25,12 +25,13 @@ double бонус за сумму продаж)
 */
     public static void main(String[] args) {
         int basicPerHour=1;
+        int basicHour=160;
         int hour = 200;
-        int experience = 1 ;
-        int numberOfSales = 2;
+        int experience = 5 ;
+        int numberOfSales = 20;
         int salesAmount = 5000;
 
-        double salary = ( overtimeBonus(hour) + (   basicPerHour * 160 * experienceCoefficient(experience)) +
+        double salary = ( overtimeBonus(hour) + (   basicPerHour *  basicHour * experienceCoefficient(experience)) +
                 quantityBonus(numberOfSales)+ bonusForTheAmount(salesAmount));
         System.out.println("your salary is : " + salary);
     }
