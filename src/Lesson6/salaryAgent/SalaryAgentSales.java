@@ -2,11 +2,12 @@ package Lesson6.salaryAgent;
 
 public class SalaryAgentSales {
 
-    int hour = 160;
-    double ratePerHour = 2;
-    int experience = 2;
-    int numberOfSales = 5;
-    double salesAmount = 10000;
+     int hour ;
+     double ratePerHour ;
+     int experience ;
+     int numberOfSales ;
+     double salesAmount ;
+
 
     public SalaryAgentSales(int hour, double ratePerHour, int experience, int numberOfSales, double salesAmount) {
         this.hour = hour;
@@ -14,6 +15,10 @@ public class SalaryAgentSales {
         this.experience = experience;
         this.numberOfSales = numberOfSales;
         this.salesAmount = salesAmount;
+
+
+
+
     }
 
     public SalaryAgentSales(int hour, double ratePerHour) {
@@ -21,7 +26,10 @@ public class SalaryAgentSales {
         this.ratePerHour = ratePerHour;
 
 
+
+
     }
+
 
     public double overtimeBonus() {
         if (hour > 160)
@@ -60,8 +68,11 @@ public class SalaryAgentSales {
         else
             return 0;
     }
-    public double getSalary(){
-        return  ( overtimeBonus() + (   ratePerHour *  160 * experienceCoefficient()) +
+    public double getSalary( ){
+        return  ( overtimeBonus() + (   this.ratePerHour *  160 * experienceCoefficient()) +
                 quantityBonus()+ bonusForTheAmount());
+    }
+    public double getSalary(){
+        return (overtimeBonus() + (ratePerHour + hour));
     }
 }
