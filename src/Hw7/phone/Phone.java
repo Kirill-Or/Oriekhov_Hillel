@@ -1,4 +1,4 @@
-package Lesson7.phone;
+package Hw7.phone;
 
 public abstract class Phone {
 

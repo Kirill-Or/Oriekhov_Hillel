@@ -1,4 +1,4 @@
-package Lesson7.phone;
+package Hw7.phone;
 
 public class SmartphoneTester {
     public static void main(String[] args) {

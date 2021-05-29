@@ -1,4 +1,4 @@
-package Lesson7.juice;
+package Hw7.juice;
 
 public class Fruit {
     private int calories;

@@ -1,4 +1,4 @@
-package Lesson7.juice;
+package Hw7.juice;
 
 public class Lemon extends Fruit {
 

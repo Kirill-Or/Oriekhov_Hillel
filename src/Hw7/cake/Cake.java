@@ -1,4 +1,4 @@
-package Lesson7.cake;
+package Hw7.cake;
 
 public class Cake {
     private String taste ;
