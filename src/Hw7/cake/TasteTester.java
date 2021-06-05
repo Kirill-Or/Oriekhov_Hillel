@@ -1,6 +1,6 @@
 package Hw7.cake;
 
-public class TasteTester {
+public class TasteTester  {
     public static void main(String[] args) {
     Cake cake = new Cake();
         cake.setTaste("chocolate");

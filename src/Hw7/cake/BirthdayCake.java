@@ -1,6 +1,6 @@
 package Hw7.cake;
 
-public class BirthdayCake extends Cake{
+public class BirthdayCake extends Cake {
     private int candles;
 
     public int getCandles() {

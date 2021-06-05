@@ -5,7 +5,7 @@ public class Book {
      private double price;
      private String title;
      private String coverType;
-    private int quantityOfPages;
+     private int quantityOfPages;
 
 
     public Book(double price, String title, String coverType, int quantityOfPages) {
