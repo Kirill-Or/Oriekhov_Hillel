@@ -3,8 +3,8 @@ package Hw10;
 import java.util.Arrays;
 
 public class OperationWithString {
-    static String string = "Get a modern feel with a smudge-resistant only for $2.50, you can finish now";
-    static int x = string.length();
+     String string = "Get a modern feel with a smudge-resistant only for $2.50, you can finish now";
+     int x = string.length();
 
     public  String afterFellInUpperCase(String inputString) {
         String[] arrayString = inputString.split(" ");
