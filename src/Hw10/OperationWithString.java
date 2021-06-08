@@ -8,8 +8,8 @@ public class OperationWithString {
 
     public  String afterFellInUpperCase(String inputString) {
         String[] arrayString = inputString.split(" ");
-        String x = arrayString[4].toUpperCase();
-        return x;
+        String upperString = arrayString[4].toUpperCase();
+        return upperString;
     }
 
     public  String withoutFirstAndLastChar(String inputString) {
