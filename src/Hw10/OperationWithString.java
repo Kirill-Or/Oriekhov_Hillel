@@ -12,7 +12,7 @@ public class OperationWithString {
         return x;
     }
 
-    public String withoutFirstAndLastChar(String inputString) {
+    public  String withoutFirstAndLastChar(String inputString) {
         try {
             String subString = inputString.trim().substring(1, x - 1);
             return subString;
