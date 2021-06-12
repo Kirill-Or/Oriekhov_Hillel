@@ -7,7 +7,7 @@ public class OperationWithString {
      int x = string.length();
 
     public  String afterFellInUpperCase(String inputString) {
-        String[] arrayString = inputString.split(" ");
+        String [] arrayString = inputString.split(" ");
         String upperString = arrayString[4].toUpperCase();
         return upperString;
     }
